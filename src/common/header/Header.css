@@ -1,0 +1,18 @@
+.header {
+    padding: 8px 32px 8px 16px;
+    height: 36px;
+    background: #222;
+  }
+  .header-logo{
+    background: #ff7f7f;    
+    height: 35px;
+    animation: logo-spin infinite 8s linear;
+  }
+  
+  @keyframes logo-spin{
+    from { transform: scaleX(-1);}
+}
+
+.login-button{
+    float: right;
+  }
